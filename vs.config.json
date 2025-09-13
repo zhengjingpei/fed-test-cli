@@ -1,0 +1,51 @@
+{
+  "upload": {
+    "uploadPath": "out",
+    "s3Static": "static/test"
+  },
+  "deploy": {
+    "baseUrlExample": "baseUrl: ['/', 'en-us/', 'zh-hk/', 'test/']",
+    "baseUrl": [
+      "/",
+      "en-us/",
+      "zh-cn/",
+      "de-de/",
+      "it-it/",
+      "pt-pt/",
+      "es-es/",
+      "fr-fr/",
+      "ru-ru/",
+      "error/",
+      "download-v2/"
+    ],
+    "host": "https://www.china2u.xyz",
+    "testHost": "https://ai.decom.valleysound.xyz"
+  },
+  "aws": {
+    "Bucket": "decom-cdn",
+    "prefix": "fed",
+    "Region": "us-east-1",
+    "HostName": "https://cdn.cn2u.xyz"
+  },
+  "crowdin": {
+    "project": "fed-buy-buy-buy-home",
+    "langMap": [
+      "zh-cn",
+      "en-us",
+      "de-de",
+      "pt-pt",
+      "fr-fr",
+      "es-es",
+      "it-it",
+      "ru-ru"
+    ],
+    "workDir": "src",
+    "reg": "{#(.+?)#}",
+    "keysDir": "src/_i18n",
+    "Bucket": "mall-rocket-cdn",
+    "prefix": "fed",
+    "Region": "us-east-1",
+    "FromIni": "mall",
+    "HostName": "https://cdn.alvinclub.ca"
+  }
+}
