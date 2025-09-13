@@ -1,0 +1,12 @@
+{
+  "name": "fed-test-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "ai-yuca deploy -e test.gcpcli"
+  },
+  "author": "",
+  "license": "ISC"
+}
