@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "ai-yuca deploy -e test.gcpcli"
+    "test": "ai-yuca deploy -e test.gcpcli",
+    "deploy": "ai-yuca deploy -k /Users/yucang/Desktop/sodium-burner-472205-g2-65cae6a8923d.json -e test.gcpcli"
   },
   "author": "",
   "license": "ISC"
